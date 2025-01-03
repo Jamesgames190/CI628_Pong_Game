@@ -1,0 +1,4 @@
+﻿  MyGame.cpp
+E:\Uni\CI628 module\CI628\src\MyGame.cpp(275,33): warning C4018: '>': signed/unsigned mismatch
+E:\Uni\CI628 module\CI628\src\MyGame.cpp(293,36): warning C4018: '>': signed/unsigned mismatch
+  MyGame.vcxproj -> E:\Uni\CI628 module\CI628\build\Debug\MyGame.exe

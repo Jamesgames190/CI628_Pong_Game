@@ -1,0 +1,10 @@
+^E:\UNI\CI628 MODULE\CI628\CMAKELISTS.TXT
+setlocal
+"E:\Uni\CI628 module\cmake\bin\cmake.exe" "-SE:/Uni/CI628 module/CI628" "-BE:/Uni/CI628 module/CI628/build" --check-stamp-file "E:/Uni/CI628 module/CI628/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
